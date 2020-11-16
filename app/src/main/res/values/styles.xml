@@ -5,6 +5,6 @@
 
     <style name="stockCharts_Base.LineChart">
         <item name="charts_lineColor">@color/lineChart_lineColor</item>
-        <item name="charts_lineWidth">@dimen/stockCharts_lineWidth</item>
+        <item name="charts_lineWidth">@dimen/lineChart_lineWidth</item>
     </style>
 </resources>
