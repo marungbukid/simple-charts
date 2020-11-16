@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="stockCharts_BaseChartStyle" format="reference" />
+
+	<declare-styleable name="BaseChart">
+		<attr name="charts_hasPriceAxis" format="boolean|reference" />
+		<attr name="charts_hasVolumeBars" format="boolean|reference" />
+		<attr name="charts_hasDateTimeIndicator" format="boolean|reference" />
+
+		<attr name="charts_priceAxisTextColor" format="color|reference" />
+		<attr name="charts_priceAxisTextSize" format="dimension" />
+		<attr name="charts_priceAxisDividerColor" format="color|reference" />
+
+		<attr name="charts_dateTimeTextColor" format="color|reference" />
+		<attr name="charts_dateTimeTextSize" format="dimension" />
+		<attr name="charts_dateTimeAxisDividerColor" format="color|reference" />
+
+		<attr name="charts_scrubEnabled" format="boolean|reference" />
+		<attr name="charts_scrubLineColor" format="color|reference" />
+		<attr name="charts_scrubLineWidth" format="dimension|reference" />
+
+		<attr name="charts_volumeBarColor" format="color|reference" />
+
+		<attr name="charts_topColorGradientFill" format="color|reference" />
+		<attr name="charts_bottomColorGradientFill" format="color|reference" />
+
+		<attr name="android:fontFamily" format="reference" />
+	</declare-styleable>
+
+</resources>

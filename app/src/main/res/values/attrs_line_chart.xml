@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="stockCharts_LineChartViewStyle" format="reference" />
+
+	<declare-styleable name="LineChartView">
+		<attr name="charts_lineColor" format="color|reference" />
+		<attr name="charts_lineWidth" format="dimension|reference" />
+		<attr name="charts_lastPointMarkerEnabled" format="boolean|reference" />
+		<attr name="charts_lastPointMarkerColor" format="color|reference" />
+		<attr name="charts_scrubPointMarkerColor" format="color|reference" />
+
+		<attr name="charts_fillColor" format="color|reference" />
+		<attr name="charts_fillType" format="enum">
+			<enum name="none" value="0" />
+			<enum name="up" value="1" />
+			<enum name="down" value="2" />
+			<enum name="towardZero" value="3" />
+		</attr>
+	</declare-styleable>
+
+</resources>
