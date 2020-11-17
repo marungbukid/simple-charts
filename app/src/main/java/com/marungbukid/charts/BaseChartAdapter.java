@@ -23,10 +23,6 @@ public abstract class BaseChartAdapter<T extends BaseChartEntry> {
      */
     public abstract T getItem(int index);
 
-    public abstract Collection<T> getItems();
-
-    public abstract Collection<T> getAvailableDataByChartRange(@BaseChart.ChartRange int range);
-
     /**
      * @return the float representation of the X value of the point at the given index.
      */
